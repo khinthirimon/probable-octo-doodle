@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Music App</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="menu_side">
+        <h1>Playlist</h1>
+        <div class="playlist">
+          <h4 class="active">
+            <span></span><i class="bi bi-music-note-beamed"></i> Playlist
+          </h4>
+          <h4>
+            <span></span><i class="bi bi-music-note-beamed"></i> Last Listening
+          </h4>
+          <h4>
+            <span></span><i class="bi bi-music-note-beamed"></i> Recommended
+          </h4>
+        </div>
+        <div class="menu_song">
+          <li class="songItem">
+            <span>01</span>
+            <img src="img/mamyint.jpg" alt="Pone Yape" />
+            <h5>
+              Ma Myint
+              <div class="subtitle">Pone Yape</div>
+              <iframe width="100" height="10" src="https://www.youtube.com/embed/owVKcvdyNtQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </h5>
+            <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+          </li>
+          <li class="songItem">
+            <span>02</span>
+            <img src="img/doublej.jpg" alt="Double J" />
+            <h5>
+              Why
+              <div class="subtitle">Double J</div>
+              <iframe width="100" height="10" src="https://www.youtube.com/embed/2ET4VgCpJ2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+            </h5>
+            <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+          </li>
+          <!-- <li class="songItem">
+            <span>03</span>
+            <img src="img/newjeans.jpg" alt="newjeans" />
+            <h5>
+              OMG
+              <div class="subtitle">New jeans</div>
+              <iframe width="100" height="10" src="https://www.youtube.com/embed/hc32lb0po9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
+            </h5>
+            <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+          </li> -->
+          <li class="songItem">
+            <span>03</span>
+            <img src="img/htooeaintin.jpg" alt="htooeaintin" />
+            <h5>
+              Swae Tal
+              <div class="subtitle">Htoo Eain Tin</div>
+              <iframe width="100" height="10" src="https://www.youtube.com/embed/ZZoJoz5Grg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </h5>
+            <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+          </li>
+          <!-- <li class="songItem">
+            <span>05</span>
+            <img src="img/Nj.jpg" alt="Nj" />
+            <h5>
+              A Hmaung Sone Day
+              <div class="subtitle">NJ</div>
+              <iframe width="100" height="10" src="https://www.youtube.com/embed/qdEBLeTZl_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </h5>
+            <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+          </li> -->
+          <li class="songItem">
+            <span>04</span>
+            <img src="img/soelwin2.jpg" alt="soelwin2" />
+            <h5>
+              Nge Thu Moh
+              <div class="subtitle">Soe Lwin Lwin</div>
+              <iframe width="100" height="10" src="https://www.youtube.com/embed/sNi9YHpCkJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </h5>
+            <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+          </li>
+          <li class="songItem">
+            <span>05</span>
+            <img src="img/layphyu.jpg" alt="layphyu" />
+            <h5>
+              A Lin Yaung
+              <div class="subtitle">Lay Phyu</div>
+              <iframe width="100" height="10" src="https://www.youtube.com/embed/pJYEe_yWJvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </h5>
+            <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+          </li>
+        </div>
+      </div>
+
+      <div class="song_side">
+        <nav>
+          <ul>
+            <li>Discover <span></span></li>
+            <li>MY LIBRARY</li>
+            <li>RADIO</li>
+          </ul>
+          <div class="search">
+            <i class="bi bi-search"></i>
+            <input type="text" placeholder="Search Music..." />
+          </div>
+          <div class="user">
+            <img
+              src="img/usericon.jpg"
+              alt="User"
+              title="Khin and Hsu"
+            />
+            <!-- default bar img  -->
+          </div>
+        </nav>
+        <div class="content">
+          <h1>Taylor Swift<h1>
+          <p>
+            Taylor Alison Swift is an American singer-songwriter.            <br />
+            Her discography spans multiple genres, and her songwriting—often inspired by her personal life—has received critical praise and wide media coverage.          </p>
+          <div class="buttons">
+            <a href="login.html" ><button>FOLLOW</button></a>
+          </div>
+        </div>
+        <div class="popular_song">
+          <div class="h4">
+            <h4>Popular Song</h4>
+            <div class="btn_s">
+              <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+              <i id="right_scroll" class="bi bi-arrow-right-short"></i>
+            </div>
+          </div>
+          <div class="pop_song">
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/gyi2.jpg" alt="gyi" />
+                <!-- image change -->
+                <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+              </div>
+              <h5>
+                A Sate Kwet
+                <br />
+                <div class="subtitle">Myo Gyi</div>
+                <iframe width="100" height="10" src="https://www.youtube.com/embed/3l5FUdSHPVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </h5>
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/wynesu.jpg" alt="wynesukhaingthein" />
+                <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+                <!-- change All id  -->
+              </div>
+              <h5>
+                Pyat Sar
+                <br />
+                <div class="subtitle">Wyne Su Khaing Thein</div>
+                <iframe width="100" height="10" src="https://www.youtube.com/embed/TYw8D6YmXa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </h5>
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/rzarni.jpg" alt="Rzarni" />
+                <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+              </div>
+              <h5>
+                Gana Win Se Sar
+                <br />
+                <div class="subtitle">R Zar Ni</div>
+                <iframe width="100" height="10" src="https://www.youtube.com/embed/UXqhHMU-bhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </h5>
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/mgmg.jpg" alt="Mgmgzawlatt" />
+                <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+              </div>
+              <h5>
+                Yone Par
+                <br />
+                <div class="subtitle">Mg Mg Zaw Latt</div>
+                <iframe width="100" height="10" src="https://www.youtube.com/embed/uvLOvCNIthE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </h5>
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/hannaytar.jpg" alt="Hannaytar" />
+                <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+              </div>
+              <h5>
+                Nay Chi
+                <br />
+                <div class="subtitle">Han Nay Tar</div>
+                <iframe width="100" height="10" src="https://www.youtube.com/embed/hfvst-aVba0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </h5>
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/lsaizi.jpg" alt="Lsaizi" />
+                <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+              </div>
+              <h5>
+                Moe Yar Thi Htae
+                <br />
+                <div class="subtitle">L Sai Zi</div>
+                <iframe width="100" height="10" src="https://www.youtube.com/embed/JflW_b60AgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </h5>
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/ywine.jpg" alt="Ywine" />
+                <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+              </div>
+              <h5>
+                See
+                <br />
+                <div class="subtitle">Y Wine</div>
+                <iframe width="100" height="10" src="https://www.youtube.com/embed/BT6_FYlli9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </h5>
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/conan.jpg" alt="Conangray" />
+                <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+              </div>
+              <h5>
+                Maniac
+                <br />
+                <div class="subtitle">Conan Gray</div>
+                <iframe width="100" height="10" src="https://www.youtube.com/embed/-E-_IRJU5w0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </h5>
+            </li>
+          </div>
+        </div>
+        <div class="popular_artists">
+          <div class="h4">
+            <h4>Popular Artists</h4>
+            <div class="btn_s">
+              <i id="left_scrolls" class="bi bi-arrow-left-short"></i>
+              <i id="right_scrolls" class="bi bi-arrow-right-short"></i>
+            </div>
+          </div>
+          <div class="item">
+            <li>
+             <a href="nini.html" ><img src="img/nini.jpg" alt="Ni NI Khin Zaw" title="Ni NI Khin Zaw" /></a>
+            </li>
+            <li>
+              <img src="img/yairyinaungt.jpg" alt="Yair Yint Aung" title="Yair Yint Aung" />
+            </li>
+            <li>
+              <img src="img/Htooein.jpg" alt="Htoo Eain Thin" title="Htoo Eain Thin" />
+            </li>
+            <li>
+              <img src="img/zawwinhtut.jpg" alt="Zaw Win Htut" title="Zaw Win Htut" />
+            </li>
+            <li>
+              <a href="myogyi.html">
+              <img src="img/myogyi.jpg" alt="Myo Gyi" title="Myo Gyi" /></a>
+            </li>
+            <li>
+              <img
+                src="img/taylor.jpg"
+                alt="Taylor Swift"
+                title="Taylor Swift"
+              />
+            </li>
+            <li>
+              <a href="phyu.html">
+              <img
+                src="img/phyuphyu.jpg"
+                alt="Phyu Phyu Kyaw Thein"
+                title="Phyu Phyu Kyaw Thein"
+              /></a>
+            </li>
+            <li>
+              <a href="oliva.html">
+              <img src="img/olivia.jpg" alt="Olivia Rodrigo" title="Olivia Rodrigo" /></a>
+            </li>
+            <li>
+              <img
+                src="img/bruno.jpg"
+                alt="Bruno Mars"
+                title="Bruno Mars"
+              />
+            </li>
+            <li>
+              <img src="img/bts.jpg" alt="BTS" title="BTS" />
+            </li>
+            <li>
+              <img src="img/blankpink.jpg" alt="Black Pink" title="Black Pink" />
+            </li>
+            <!-- change all img  -->
+          </div>
+        </div>
+      </div>
+
+      <div class="master_play">
+        <div class="wave">
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+        </div>
+        <img src="img/newjeans.jpg" alt="newjeans" id="poster_master_play" />
+        <h5 id="title">
+          OMG<br />
+          <div class="subtitle">New Jeans</div>
+        </h5>
+        <div class="icon">
+          <i class="bi bi-skip-start-fill" id="back"></i>
+          <i class="bi bi-play-fill" id="masterPlay"></i>
+          <i class="bi bi-skip-end-fill" id="next"></i>
+        </div>
+        <span id="currentStart">0:00</span>
+        <div class="bar">
+          <input type="range" id="seek" min="0" value="0" max="100" />
+          <div class="bar2" id="bar2"></div>
+          <div class="dot"></div>
+        </div>
+        <span id="currentEnd">0:00</span>
+
+        <div class="vol">
+          <i class="bi bi-volume-down-fill" id="vol_icon"></i>
+          <input type="range" id="vol" min="0" value="30" max="100" />
+          <div class="vol_bar"></div>
+          <div class="dot" id="vol_dot"></div>
+        </div>
+      </div>
+    </header>
+    <script src="app.js"></script>
+  </body>
+</html>
